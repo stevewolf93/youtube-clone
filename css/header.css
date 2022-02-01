@@ -1,4 +1,11 @@
 header{
   background-color: var(--yt-dm-background-header);
   display: flex;
+  width: 100vw;
+  height: 6vh;
 }
+
+header>div, header>div>div{
+  display:inline; 
+}
+
