@@ -1,8 +1,12 @@
 header{
   background-color: var(--yt-dm-background-header);
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   width: 100vw;
   height: 6vh;
+  color: var(--yt-dm-textcolor-sidebar);
 }
 
 header>div, header>div>div{
