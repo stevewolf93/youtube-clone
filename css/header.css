@@ -1,0 +1,4 @@
+header{
+  background-color: var(--yt-dm-background-header);
+  display: flex;
+}
