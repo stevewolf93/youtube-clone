@@ -1,0 +1,7 @@
+.sidebar{
+  background-color: var(--yt-dm-background-header);
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  height: 94vh;
+}
