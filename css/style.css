@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url(./var.css);
+@import url(./fontawesome-free-5.15.4-web/css/all.css);
 @import url(./header.css);
 @import url(./main.css);
 @import url(./sidebar.css);

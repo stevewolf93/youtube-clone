@@ -10,6 +10,12 @@
   line-height: 2rem;
 }
 
+.sidebar hr{
+  color: rgb(51, 51, 51);
+  width: 95%;
+
+}
+
 .sidebar i , .sidebar img{
   width: 24px;
   height: 24px;
