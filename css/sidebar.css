@@ -2,6 +2,10 @@
   background-color: var(--yt-dm-background-header);
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
   width: 15vw;
   height: 94vh;
+  color: var(--yt-dm-textcolor-sidebar);
+  line-height: 2rem;
 }
