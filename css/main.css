@@ -1,0 +1,14 @@
+#bigcontainer{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 94vh;
+}
+
+main{
+  width: 87%;
+  height: 100%;
+  background-color: var(--yt-dm-bacgroundcolor-main);
+  border: red dotted;
+  
+}

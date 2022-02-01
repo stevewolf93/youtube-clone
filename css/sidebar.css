@@ -4,16 +4,14 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  width: 15vw;
-  height: 94vh;
+  width: 13%;
+  height: 100%;
   color: var(--yt-dm-textcolor-sidebar);
   line-height: 2rem;
 }
 
 .sidebar hr{
-  color: rgb(51, 51, 51);
   width: 95%;
-
 }
 
 .sidebar i , .sidebar img{
