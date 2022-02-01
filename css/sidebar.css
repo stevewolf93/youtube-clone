@@ -9,3 +9,12 @@
   color: var(--yt-dm-textcolor-sidebar);
   line-height: 2rem;
 }
+
+.sidebar i , .sidebar img{
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar img{
+  border-radius: 100%;
+}
