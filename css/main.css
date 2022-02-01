@@ -9,6 +9,27 @@ main{
   width: 87%;
   height: 100%;
   background-color: var(--yt-dm-bacgroundcolor-main);
-  border: red dotted;
-  
+}
+.channelpic{
+  width: 100%;
+  height: 27%;
+}
+.channelpic>img{
+  width: 100%;
+  height: 100%;
+}
+.channelhead{
+  width: 100%;
+  height: 8%;
+  background-color: rgb(18, 18, 18);
+}
+.channelhead>div>img{
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+}
+.channelnav{
+  width: 100%;
+  height: 7%;
+  background-color: rgb(18, 18, 18);
 }
