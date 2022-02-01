@@ -9,6 +9,7 @@ main{
   width: 87%;
   height: 100%;
   background-color: var(--yt-dm-bacgroundcolor-main);
+  color: var(--yt-dm-textcolor-sidebar);
 }
 .channelpic{
   width: 100%;
@@ -32,4 +33,19 @@ main{
   width: 100%;
   height: 7%;
   background-color: rgb(18, 18, 18);
+}
+
+#videogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 80%;
+  height: 58%;
+  border: dotted blue;
+}
+
+.video {
+  width:210px;
+  height: 117,797px;
+  border: red dotted;
 }
