@@ -12,6 +12,7 @@
 
 .sidebar hr{
   width: 95%;
+border-color: rgb(78, 78, 78);
 }
 
 .sidebar i , .sidebar img{
@@ -26,7 +27,7 @@
 }
 
 .sidebar > div > div {
-  width: 180px;
+  width: 190px;
   height: 40px;
   display: flex;
   justify-content: flex-start;
