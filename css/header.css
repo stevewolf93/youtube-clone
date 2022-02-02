@@ -13,3 +13,17 @@ header>div, header>div>div{
   display:inline; 
 }
 
+header>.hamburgerIcon {
+  width: 169px;
+  height: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hamburgerIcon:first-child{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
