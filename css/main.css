@@ -61,11 +61,15 @@ main {
   font-size: 1.5rem;
 }
 
+.flexcontainerVideo{
+  display: flex;
+  justify-content: center;
+  }
 
 
 #videogrid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   width: 80%;
   height: 58%;
