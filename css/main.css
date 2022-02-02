@@ -67,11 +67,10 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  column-gap: 10px;
-  row-gap: 10px;
   width: 80%;
   height: 58%;
   justify-content: center;
+
 }
 
 .video {
@@ -79,6 +78,8 @@ main {
   height: 191.797px;
   justify-self: center;
   border: red dotted;
+  margin-bottom: 24px;
+  margin-right: 4px;
 }
 
 .thumbnail{
