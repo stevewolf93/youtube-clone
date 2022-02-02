@@ -21,22 +21,49 @@ main {
 }
 .channelhead {
   width: 100%;
-  height: 8%;
-  background-color: rgb(18, 18, 18); 
+  height: 10%;
+  background-color: rgb(18, 18, 18);
+  display: flex;
+  justify-content: space-between;
 }
 
-.channelhead>div{
+.channelheadRight,
+.channelheadLeft {
+  width: 35%;
+  height: 100%;
+  /* border: red dotted 1px; */
+}
+
+.channelheadLeft {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
 }
-.channelhead > div > img {
-  height: 80px;
+
+.channelheadProfilePic > img {
   width: 80px;
+  height: 80px;
   border-radius: 100%;
-  
+  margin-right: 25px;
 }
+.channelheadInfo {
+  width: 300px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.channelheadName {
+  font-size: 24px;
+  font-weight: 600;
+}
+.channelheadSubscriberCount {
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
 .channelnav {
   width: 100%;
   height: 7%;
@@ -45,11 +72,11 @@ main {
   align-items: center;
 }
 
-.channelnav nav{
+.channelnav nav {
   width: 100%;
 }
 
-.channelnav nav ul{
+.channelnav nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -61,11 +88,10 @@ main {
   font-size: 1.5rem;
 }
 
-.flexcontainerVideo{
+.flexcontainerVideo {
   display: flex;
   justify-content: center;
-  }
-
+}
 
 #videogrid {
   display: grid;
@@ -74,7 +100,6 @@ main {
   width: 80%;
   height: 58%;
   justify-content: center;
-
 }
 
 .video {
@@ -86,9 +111,8 @@ main {
   margin-right: 4px;
 }
 
-.thumbnail{
+.thumbnail {
   width: 210px;
   height: 117.797px;
   border: rgb(124, 124, 124) dotted;
 }
-
